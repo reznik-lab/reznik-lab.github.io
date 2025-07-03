@@ -86,14 +86,14 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Our Favourite Stories # blog_name will be displayed in your blog page
+blog_description: In progress - coming soon!
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false 
 
 related_blog_posts:
   enabled: true
@@ -193,6 +193,8 @@ exclude:
   - vendor
   # exclude template fies 
   - _news/announcement_*.md
+  - _posts/*
+  - _projects/*
 
 keep_files:
   - CNAME
