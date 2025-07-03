@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-# subtitle: Department of Epidemiology and Biostatistics. Memorial Sloan Kettering Cancer Center. #<a href='#'>Affiliations</a>. 
+subtitle: Laboratory of Computational Cancer Metabolism
 
 profile:
   align: right 
-  image: lab_photo.jpg
+  image: /lab_photos/lab_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Memorial Sloan Kettering Cancer Center</p>
@@ -14,7 +14,7 @@ profile:
     <p>New York, New York 10065</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
