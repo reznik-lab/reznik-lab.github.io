@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: Department of Epidemiology and Biostatistics. Memorial Sloan Kettering Cancer Center. #<a href='#'>Affiliations</a>. 
 
