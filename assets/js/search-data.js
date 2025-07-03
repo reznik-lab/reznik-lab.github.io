@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-lab-members",
+          title: "Lab Members",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -99,7 +99,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-welcome-alex-and-jamie-to-the-reznik-lab-they-are-phd-students-from-the-tri-i-cbm-and-pbsb-programs-at-weill-cornell-medicine-repectively",
+            },},{id: "news-congratulations-ed-for-winning-the-2025-pershing-square-prize",
+          title: 'Congratulations Ed for winning the 2025 Pershing Square Prize! 🎉',
+          description: "",
+          section: "News",},{id: "news-congratulations-to-amy-for-graduating-with-her-phd",
+          title: 'Congratulations to Amy for graduating with her PhD! 🎓',
+          description: "",
+          section: "News",},{id: "news-welcome-alex-and-jamie-to-the-reznik-lab-they-are-phd-students-from-the-tri-i-cbm-and-pbsb-programs-at-weill-cornell-medicine-repectively",
           title: 'Welcome Alex and Jamie to the Reznik Lab! They are PhD students from...',
           description: "",
           section: "News",},{
