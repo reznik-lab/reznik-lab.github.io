@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: Department of Epidemiology and Biostatistics. Memorial Sloan Kettering Cancer Center. #<a href='#'>Affiliations</a>. 
 
 profile:
   align: right 
   image: lab_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Memorial Sloan Kettering Cancer Center</p>
     <p>321 E 61st Street</p>
     <p>New York, New York 10065</p>
 
