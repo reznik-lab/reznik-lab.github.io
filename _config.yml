@@ -191,6 +191,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  # exclude template fies 
+  - _news/announcement_*.md
+
 keep_files:
   - CNAME
   - .nojekyll
