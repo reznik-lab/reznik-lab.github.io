@@ -10,10 +10,12 @@ layout: default
       {% else %}
         {{ site.title }}
       {% endif %}
+      <!-- Jul3 : add mitochondria image to top left navbar: img https://www.istockphoto.com/search/2/image?mediatype=illustration&phrase=mitochondrion -->
+      <img src="{{ site.baseurl }}/assets/img/science_images/mitochondria-removebg-preview.png" alt="Logo" style="height: 2em; margin-bottom:0.2em" />
     </h1>
       <!-- <p class="desc">{{ page.subtitle }}</p> -->
       <!-- Change subtitle look -->
-      <p class="desc" style="color: #007BFF; font-size: 1.2rem;">{{ page.subtitle }}</p>
+      <p class="desc" style="color: #007BFF; font-size: 1.5rem;">{{ page.subtitle }}</p>
 
   </header>
 
@@ -39,9 +41,9 @@ layout: default
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
         <!-- add socials here: jul 3rd 2025 -->
-        <div class="socials">
-        <div class="contact-icons" style="font-size: 2.5rem;">{% include social.liquid %}</div>
-    </div>
+        <!--<div class="socials">-->
+        <!--<div class="contact-icons" style="font-size: 2.5rem;">{% include social.liquid %}</div>-->
+    <!--</div>-->
       </div>
     {% endif %}
 
@@ -50,7 +52,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -86,12 +88,20 @@ layout: default
 
   
     <!-- Lab Affiliations -->
-    <div class="lab-affiliations">
-      <h2> <a style="color: inherit">lab affiliations</a> </h2>
-      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-      <img src={{ site.baseurl }}"/assets/img/logos/mskcc_logo.png" alt="Funder 1" style="height: 4em;">
-      <img src={{ site.baseurl }}"/assets/img/logos/componc_logo.png" alt="Funder 2" style="height: 4em;">
-      <img src={{ site.baseurl }}"/assets/img/logos/wcm.png" alt="Funder 2" style="height: 4em;">
+    <div class="lab-affiliations" style="margin-bottom: 2em; margin-top: 1em;">
+      <h2> <a style="color: inherit">Affiliations</a> </h2>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <img src="{{ site.baseurl }}/assets/img/logos/mskcc_logo.png" alt="Funder 1" style="height: 3.75em;">
+      <img src="{{ site.baseurl }}/assets/img/logos/componc_logo.png" alt="Funder 2" style="height: 4em;">
+      <img src="{{ site.baseurl }}/assets/img/logos/wcm.png" alt="Funder 2" style="height: 4em;">
+      </div>
+    </div>
+
+    <!-- Funding Sources -->
+    <div class="lab-funding">
+      <h2> <a style="color: inherit">Funding Sources</a> </h2>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <img src="{{ site.baseurl }}/assets/img/funders/pershing_square.png" alt="Funder 1" style="height: 6em;">
       </div>
     </div>
   </article>
