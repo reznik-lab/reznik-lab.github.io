@@ -83,5 +83,16 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+  
+    <!-- Lab Affiliations -->
+    <div class="lab-affiliations">
+      <h2> <a style="color: inherit">lab affiliations</a> </h2>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <img src={{ site.baseurl }}"/assets/img/logos/mskcc_logo.png" alt="Funder 1" style="height: 4em;">
+      <img src={{ site.baseurl }}"/assets/img/logos/componc_logo.png" alt="Funder 2" style="height: 4em;">
+      <img src={{ site.baseurl }}"/assets/img/logos/wcm.png" alt="Funder 2" style="height: 4em;">
+      </div>
+    </div>
   </article>
 </div>
