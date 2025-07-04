@@ -14,36 +14,36 @@ profiles:
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Ed Reznik, PhD</p>
-      <p>Principal Investigator</p>
+      <p>Ed Reznik, PhD</p><br>
+      <p>Principal Investigator</p><br>
       <p>Associate Attending, Computational Oncologist</p>
   - align: right
     image: lab_member_photos/ziad.png
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Ziad Bakouny</p>
+      <p>Ziad Bakouny, MD</p><br>
       <p>Medical Oncology Fellow</p>
   - align: right
     image: lab_member_photos/anirudh.png
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Anirudh Sridharan</p>
+      <p>Anirudh Sridharan, PhD</p><br>
       <p>Postdoctoral Fellow</p>
   - align: right
     image: lab_member_photos/venise.png
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Venise Jan Castillon</p>
+      <p>Venise Jan Castillon</p><br>
       <p>MSK Bridge Program Scholar</p>
   - align: right
     image: lab_member_photos/andrea.png
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Andrea Lopez Sanmiguel</p>
+      <p>Andrea Lopez Sanmiguel</p><br>
       <p>Medical Student</p>
   - align: right
     image: lab_member_photos/sonia.png
@@ -81,28 +81,28 @@ profiles:
       <p>Jamie Wang</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: lab_member_photos/daniel.png
+    image: prof_pic.jpg
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Daniel Barbakoff</p><br>
       <p>Medical Student</p>
   - align: right
-    image: lab_member_photos/daniel.png
+    image: prof_pic.jpg
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Saksham Mohan</p><br>
       <p>Machine Learning Intern</p>
   - align: right
-    image: lab_member_photos/lamiah.png
+    image: prof_pic.jpg
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Lamiah Khan</p><br>
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
-    image: lab_member_photos/river.png
+    image: prof_pic.jpg
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
