@@ -268,8 +268,8 @@ display_tags: ["mtDNA", "cachexia", "obesity", "cancer genomics"] # these tags w
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Reznik]
+  first_name: [Ed, Eduard, ED]
 
   style: apa
   locale: en
