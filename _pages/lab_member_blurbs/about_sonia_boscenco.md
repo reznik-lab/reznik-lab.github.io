@@ -1,0 +1,1 @@
+Sonia is a PhD student in the Physiology, Biophysics and Systems Biology Program at Weill Cornell. She completed her undergraduate degree at McGill University in Neuroscience and Computer Science. Sonia is interested in utilizing computational approaches to understand the pathophysiology of cancer cachexia. In her free time, Sonia enjoys dancing, reading, and trying new recipes.
