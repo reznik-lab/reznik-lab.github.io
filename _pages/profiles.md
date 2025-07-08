@@ -47,7 +47,7 @@ profiles:
       <p>Medical Student</p>
   - align: right
     image: lab_member_photos/sonia.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_sonia_boscenco.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Sonia Boscenco</p><br>
