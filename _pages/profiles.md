@@ -14,9 +14,9 @@ profiles:
     content: lab_member_blurbs/about_ed_reznik.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Ed Reznik, PhD</p><br>
-      <p>Principal Investigator</p><br>
-      <p>Associate Attending, Computational Oncologist</p>
+      <p>Ed Reznik, PhD (PI)</p><br>
+      <p>Associate Attending, Computational Oncologist</p><br>
+      Contact: <a href="mailto:reznike@mskcc.org">reznike@mskcc.org</a>
   - align: right
     image: prof_pic.jpg
     content: lab_member_blurbs/about_ed_reznik.md
@@ -26,7 +26,7 @@ profiles:
       <p>Medical Student</p>
   - align: right
     image: lab_member_photos/ziad.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_ziad_bakouny.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ziad Bakouny, MD</p><br>
@@ -53,8 +53,8 @@ profiles:
       <p>Alex Guo</p><br>
       <p>PhD Student (CBM)</p>
   - align: right
-    image: prof_pic.jpg
-    content: lab_member_blurbs/about_ed_reznik.md
+    image: lab_member_photos/lamiah.png
+    content: lab_member_blurbs/about_lamiah_khan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Lamiah Khan</p><br>

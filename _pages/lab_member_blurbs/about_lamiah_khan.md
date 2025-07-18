@@ -1,0 +1,3 @@
+Lamiah is an undergraduate student in the Engage Program at Memorial Sloan Kettering. She is currently pursuing a Bachelor’s degree in Electrical and Computer Engineering at The Cooper Union for the Advancement of Science and Art. Lamiah is interested in applying machine learning to identify and characterize prognostic factors that influence cancer survival outcomes.
+
+Outside of her academic pursuits, she enjoys reading, painting, and playing badminton.
