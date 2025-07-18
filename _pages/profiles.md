@@ -75,7 +75,7 @@ profiles:
       <p>Machine Learning Intern</p>
   - align: right
     image: lab_member_photos/neil.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_neil_ruthen.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Neil Ruthen</p><br>
