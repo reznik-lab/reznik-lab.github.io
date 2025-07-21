@@ -1,0 +1,4 @@
+Jamie is a PhD student in the Physiology, Biophysics and Systems Biology Program at Weill Cornell, and is co-mentored by Dr. Wesley Tansey and Dr. Ed Reznik in Computational Oncology at MSK. He completed his undergraduate studies at Duke University, where he double-majored in Biomedical Engineering and Computer Science, with a minor in Religion. As an undergraduate, he conducted research on active machine learning methods and machine learning applications for drug discovery. Currently, Jamie is interested in utilizing deep learning methods to identify clinically relevant subtypes of cancer cachexia.
+
+
+Outside of research, he enjoys playing volleyball, visiting the Met, and watching movies at the Metrograph (not sponsored)

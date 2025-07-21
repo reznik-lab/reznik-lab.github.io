@@ -82,7 +82,7 @@ profiles:
       <p>PhD Student (PBSB)</p>
   - align: right
     image: lab_member_photos/anirudh.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_anirudh_sridharan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Anirudh Sridharan, PhD</p><br>
@@ -103,7 +103,7 @@ profiles:
       <p>High School Intern</p>
   - align: right
     image: lab_member_photos/jamie.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_jamie_wang.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Jamie Wang</p><br>
