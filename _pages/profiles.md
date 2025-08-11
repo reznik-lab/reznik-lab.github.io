@@ -19,7 +19,7 @@ profiles:
       Contact: <a href="mailto:reznike@mskcc.org">reznike@mskcc.org</a>
   - align: right
     image: prof_pic.jpg
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Daniel Barbakoff</p><br>
@@ -40,14 +40,14 @@ profiles:
       <p>PhD Student (PBSB)</p>
   - align: right
     image: lab_member_photos/venise.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Venise Jan Castillon</p><br>
       <p>MSK Bridge Program Scholar</p>
   - align: right
     image: lab_member_photos/alex.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Alex Guo</p><br>
@@ -61,14 +61,14 @@ profiles:
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
     image: lab_member_photos/andrea.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Andrea Lopez Sanmiguel</p><br>
       <p>Medical Student</p>
   - align: right
     image: prof_pic.jpg
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Saksham Mohan</p><br>
@@ -89,14 +89,14 @@ profiles:
       <p>Postdoctoral Fellow</p>
   - align: right
     image: lab_member_photos/ethan.png
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ethan Tse</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
     image: prof_pic.jpg
-    content: lab_member_blurbs/about_ed_reznik.md
+    content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>River Walser</p><br>
