@@ -1,0 +1,3 @@
+Ed is the PI of the lab. He's always loved science, which turns out to be useful for a professional scientist. He holds a Bachelors and PhD in Biomedical Engineering but is not actually capable of engineering much. He likes to put his feet up and talk about science as much as possible. 
+
+In his free time, Ed is playing with his kids, traveling, and constantly updating his prior that the best food in New York City costs less than fifteen dollars.
