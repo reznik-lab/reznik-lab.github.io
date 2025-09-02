@@ -1,0 +1,3 @@
+Andrea is a Research Associate at SKI-Surgery, where she focuses on kidney cancer. She earned her MD from Pontificia Universidad Javeriana in Bogotá, Colombia. Andrea’s work includes tumor sample collection and translational research projects that evaluate kidney cancer treatments and patient outcomes. Her research connects laboratory findings with clinical practice to help improve therapies for kidney cancer patients. 
+
+Outside of work, Andrea enjoys music, rollerblading, and traveling.
