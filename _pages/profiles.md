@@ -18,7 +18,7 @@ profiles:
       <p>Associate Attending, Computational Oncologist</p><br>
       Contact: <a href="mailto:reznike@mskcc.org">reznike@mskcc.org</a>
   - align: right
-    image: prof_pic.jpg
+    image: science_images/mitochondria-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -61,13 +61,13 @@ profiles:
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
     image: lab_member_photos/andrea.png
-    content: lab_member_blurbs/about_blank.md
+    content: lab_member_blurbs/about_andrea_lopez_sanmiguel.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Andrea Lopez Sanmiguel</p><br>
       <p>Medical Student</p>
   - align: right
-    image: prof_pic.jpg
+    image: science_images/mitochondria-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -89,13 +89,13 @@ profiles:
       <p>Postdoctoral Fellow</p>
   - align: right
     image: lab_member_photos/ethan.png
-    content: lab_member_blurbs/about_blank.md
+    content: lab_member_blurbs/about_ethan_tse.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ethan Tse</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: prof_pic.jpg
+    image: science_images/mitochondria-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >

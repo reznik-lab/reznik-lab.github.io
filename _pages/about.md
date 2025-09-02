@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to the Reznik Lab in the [Computational Oncology Service](https://www.mskcc.org/departments/epidemiology-biostatistics/computational-oncology) at the [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/). 
+Welcome to the Reznik Lab in the [Computational Oncology Service](https://www.mskcc.org/departments/epidemiology-biostatistics/computational-oncology) at the [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/).
 
-We are a team of computational biologists using statistical and machine learning methods to analyze large-scale datasets to answer questions around cancer metabolism, immunometabolism, and the interactions between host physiology and tumour biology.
+We are a team of computational biologists using statistical and machine learning methods to analyze large-scale datasets to answer questions about cancer metabolism, immunometabolism, and the interactions between host physiology and tumor biology.
 
-We are interested in interested in creative, integrative models of living systems that mesh heterogeneous types of high-throughput and low-throughput data.
+We are interested in creative, integrative models of living systems that mesh heterogeneous types of high-throughput and low-throughput data.
 
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
