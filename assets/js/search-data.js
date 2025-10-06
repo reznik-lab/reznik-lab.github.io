@@ -73,6 +73,9 @@ ninja.data = [{
           section: "News",},{id: "news-welcome-alex-and-jamie-to-the-reznik-lab-they-are-phd-students-from-the-tri-i-cbm-and-pbsb-programs-at-weill-cornell-medicine-repectively",
           title: 'Welcome Alex and Jamie to the Reznik Lab! They are PhD students from...',
           description: "",
+          section: "News",},{id: "news-new-preprint-our-study-led-by-venise-and-amy-titled-a-health-system-scale-episode-resolved-multimodal-atlas-of-cancer-cachexia-is-now-available-on-medrxiv-see-ed-s-tweettorial-for-a-quick-overview-of-the-study",
+          title: 'New preprint! Our study led by Venise and Amy titled “A health-system-scale, episode-resolved...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
