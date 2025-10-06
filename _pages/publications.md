@@ -11,7 +11,7 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-For a complete list of publications, please visit the Ed's [google scholar](https://scholar.google.com/citations?hl=en&user=eT_wqM0AAAAJ&view_op=list_works) page.
+For a complete list of publications, please visit Ed's [google scholar](https://scholar.google.com/citations?hl=en&user=eT_wqM0AAAAJ&view_op=list_works) page.
 
 {% include bib_search.liquid %}
 
