@@ -1,0 +1,3 @@
+Venise Jan Castillon is a Bioinformatics Technician in the Reznik Lab at MSK, where she focuses on cancer cachexia. She completed her undergraduate degree in Physics at Seton Hall University and began her post-baccalaureate training at MSK through the BRIDGE program. Venise’s work includes mapping incidence of cachexia and dissecting its physiology and molecular features across cancers.
+
+Outside of lab, Venise enjoys trying out new restaurants, and going on road trips.

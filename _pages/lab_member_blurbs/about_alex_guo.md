@@ -1,0 +1,3 @@
+Alex is a PhD student in the Tri-Institutional Program in Computational Biology & Medicine. She completed her undergraduate studies in Bioengineering: Bioinformatics at UC San Diego, and worked at the Broad Institute as a computational associate focusing on mitochondrial biology. At the Reznik Lab, Alex is currently studying patterns of metabolic adaptation in cancer metastasis.
+
+Outside of work, she can be found painting, writing video game playthroughs, or hunting for the best steamed buns in the basements of semi-abandoned shopping malls on East Broadway.

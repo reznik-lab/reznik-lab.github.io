@@ -39,15 +39,15 @@ profiles:
       <p>Sonia Boscenco</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: lab_member_photos/venise.png
-    content: lab_member_blurbs/about_blank.md
+    image: lab_member_photos/venise2.jpg
+    content: lab_member_blurbs/about_venise_castillon.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Venise Jan Castillon</p><br>
       <p>MSK Bridge Program Scholar</p>
   - align: right
     image: lab_member_photos/alex.png
-    content: lab_member_blurbs/about_blank.md
+    content: lab_member_blurbs/about_alex_guo.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Alex Guo</p><br>
@@ -60,7 +60,7 @@ profiles:
       <p>Lamiah Khan</p><br>
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
-    image: lab_member_photos/andrea.png
+    image: lab_member_photos/andrea2.jpg
     content: lab_member_blurbs/about_andrea_lopez_sanmiguel.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -96,13 +96,13 @@ profiles:
       <p>PhD Student (PBSB)</p>
   - align: right
     image: science_images/mitochondria-removebg-preview.png
-    content: lab_member_blurbs/about_blank.md
+    content: lab_member_blurbs/about_river_walser.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>River Walser</p><br>
       <p>High School Intern</p>
   - align: right
-    image: lab_member_photos/jamie.png
+    image: lab_member_photos/jamie2.jpg
     content: lab_member_blurbs/about_jamie_wang.md
     image_circular: false # crops the image to make it circular
     more_info: >
