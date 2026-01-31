@@ -76,7 +76,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-our-study-led-by-venise-and-amy-titled-a-health-system-scale-episode-resolved-multimodal-atlas-of-cancer-cachexia-is-now-available-on-medrxiv-see-ed-s-tweettorial-for-a-quick-overview-of-the-study",
           title: 'New preprint! Our study led by Venise and Amy titled “A health-system-scale, episode-resolved...',
           description: "",
-          section: "News",},{id: "news-new-paper-our-study-led-by-sonia-and-minsoo-titled-functionally-dominant-hotspot-mutations-of-mitochondrial-ribosomal-rna-genes-in-cancer-is-now-available-on-nature-genetics-don-t-forget-to-start-with-the-research-briefing",
+          section: "News",},{id: "news-new-paper-our-study-led-by-sonia-and-minsoo-titled-functionally-dominant-hotspot-mutations-of-mitochondrial-ribosomal-rna-genes-in-cancer-is-now-available-on-nature-genetics-don-t-forget-to-start-with-the-research-briefing-and-ed-s-tweetorial",
           title: 'New Paper! Our study led by Sonia and Minsoo titled “Functionally dominant hotspot...',
           description: "",
           section: "News",},{
