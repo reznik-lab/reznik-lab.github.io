@@ -18,7 +18,7 @@ profiles:
       <p>Associate Attending, Computational Oncologist</p><br>
       Contact: <a href="mailto:reznike@mskcc.org">reznike@mskcc.org</a>
   - align: right
-    image: science_images/mitochondria-removebg-preview.png
+    image: science_images/etc-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -67,7 +67,7 @@ profiles:
       <p>Andrea Lopez Sanmiguel</p><br>
       <p>Medical Student</p>
   - align: right
-    image: science_images/mitochondria-removebg-preview.png
+    image: science_images/etc-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -95,7 +95,7 @@ profiles:
       <p>Ethan Tse</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: science_images/mitochondria-removebg-preview.png
+    image: science_images/etc-removebg-preview.png
     content: lab_member_blurbs/about_river_walser.md
     image_circular: false # crops the image to make it circular
     more_info: >
