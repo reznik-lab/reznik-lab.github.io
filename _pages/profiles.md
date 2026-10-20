@@ -25,7 +25,7 @@ profiles:
       <p>Ziad Bakouny, MD</p><br>
       <p>Medical Oncology Fellow</p>
   - align: right
-    image: science_images/etc-removebg-preview.png
+    image: lab_member_photos/rachel.jpg
     content: lab_member_blurbs/about_rachel_saxe.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -53,7 +53,7 @@ profiles:
       <p>Lamiah Khan</p><br>
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
-    image: science_images/etc-removebg-preview.png
+    image: lab_member_photos/saksham.jpg
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
     more_info: >
