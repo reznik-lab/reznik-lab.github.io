@@ -18,13 +18,6 @@ profiles:
       <p>Associate Attending, Computational Oncologist</p><br>
       Contact: <a href="mailto:reznike@mskcc.org">reznike@mskcc.org</a>
   - align: right
-    image: science_images/etc-removebg-preview.png
-    content: lab_member_blurbs/about_blank.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Daniel Barbakoff</p><br>
-      <p>Medical Student</p>
-  - align: right
     image: lab_member_photos/ziad.png
     content: lab_member_blurbs/about_ziad_bakouny.md
     image_circular: false # crops the image to make it circular
@@ -38,13 +31,6 @@ profiles:
     more_info: >
       <p>Sonia Boscenco</p><br>
       <p>PhD Student (PBSB)</p>
-  - align: right
-    image: lab_member_photos/venise2.jpg
-    content: lab_member_blurbs/about_venise_castillon.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Venise Jan Castillon</p><br>
-      <p>MSK Bridge Program Scholar</p>
   - align: right
     image: lab_member_photos/alex.png
     content: lab_member_blurbs/about_alex_guo.md
@@ -60,13 +46,6 @@ profiles:
       <p>Lamiah Khan</p><br>
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
-    image: lab_member_photos/andrea2.jpg
-    content: lab_member_blurbs/about_andrea_lopez_sanmiguel.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Andrea Lopez Sanmiguel</p><br>
-      <p>Medical Student</p>
-  - align: right
     image: science_images/etc-removebg-preview.png
     content: lab_member_blurbs/about_blank.md
     image_circular: false # crops the image to make it circular
@@ -81,13 +60,6 @@ profiles:
       <p>Neil Ruthen</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: lab_member_photos/anirudh.png
-    content: lab_member_blurbs/about_anirudh_sridharan.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Anirudh Sridharan, PhD</p><br>
-      <p>Postdoctoral Fellow</p>
-  - align: right
     image: lab_member_photos/ethan.png
     content: lab_member_blurbs/about_ethan_tse.md
     image_circular: false # crops the image to make it circular
@@ -95,17 +67,22 @@ profiles:
       <p>Ethan Tse</p><br>
       <p>PhD Student (PBSB)</p>
   - align: right
-    image: science_images/etc-removebg-preview.png
-    content: lab_member_blurbs/about_river_walser.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>River Walser</p><br>
-      <p>High School Intern</p>
-  - align: right
     image: lab_member_photos/jamie2.jpg
     content: lab_member_blurbs/about_jamie_wang.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Jamie Wang</p><br>
       <p>PhD Student (PBSB)</p>
+
+former_members:
+  - name: Daniel Barbakoff
+    role: Medical Student
+  - name: Venise Jan Castillon
+    role: MSK Bridge Program Scholar
+  - name: Andrea Lopez Sanmiguel
+    role: Medical Student
+  - name: Anirudh Sridharan, PhD
+    role: Postdoctoral Fellow
+  - name: River Walser
+    role: High School Intern
 ---

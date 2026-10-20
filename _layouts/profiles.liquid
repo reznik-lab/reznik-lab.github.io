@@ -32,5 +32,48 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    {% if page.former_members %}
+      {% assign has_current = false %}
+      {% for member in page.former_members %}
+        {% if member.current %}
+          {% assign has_current = true %}
+        {% endif %}
+      {% endfor %}
+      <hr>
+      <div class="former-members">
+        <h2>Former Members</h2>
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Role in the lab</th>
+                {% if has_current %}
+                  <th scope="col">Current position</th>
+                {% endif %}
+              </tr>
+            </thead>
+            <tbody>
+              {% for member in page.former_members %}
+                <tr>
+                  <th scope="row">
+                    {% if member.url %}
+                      <a href="{{ member.url }}">{{ member.name }}</a>
+                    {% else %}
+                      {{ member.name }}
+                    {% endif %}
+                  </th>
+                  <td>{{ member.role }}</td>
+                  {% if has_current %}
+                    <td>{{ member.current | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+                  {% endif %}
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    {% endif %}
   </article>
 </div>

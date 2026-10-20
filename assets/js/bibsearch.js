@@ -48,6 +48,21 @@ document.addEventListener("DOMContentLoaded", function () {
         element.classList.add("unloaded");
       }
     });
+
+    // hide section headings (e.g. "PhD Work") whose entries are all filtered out
+    document.querySelectorAll("h3.pub-section").forEach(function (heading) {
+      let iterator = heading.nextElementSibling;
+      let hasVisibleEntry = false;
+      while (iterator && iterator.tagName !== "H3") {
+        if (iterator.tagName === "OL" && iterator.querySelector(":scope > li:not(.unloaded)")) {
+          hasVisibleEntry = true;
+        }
+        iterator = iterator.nextElementSibling;
+      }
+      if (!hasVisibleEntry) {
+        heading.classList.add("unloaded");
+      }
+    });
   };
 
   const updateInputField = () => {

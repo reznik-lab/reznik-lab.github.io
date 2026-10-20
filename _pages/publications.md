@@ -20,6 +20,14 @@ For a complete list of publications, please visit Ed's [google scholar](https://
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[year>=2018] %}
+
+<h3 class="pub-section">Postdoctoral Work</h3>
+
+{% bibliography --query @*[year>=2014 && year<=2017] %}
+
+<h3 class="pub-section">PhD Work</h3>
+
+{% bibliography --query @*[year<=2013] %}
 
 </div>
