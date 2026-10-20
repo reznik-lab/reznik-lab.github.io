@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+published: false # hidden for now; remove this line to bring the page back
 permalink: /projects/
 description: Current projects in the lab
 nav: true

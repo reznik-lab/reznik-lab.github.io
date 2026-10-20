@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false # hidden for now; remove this line to bring the page back
 permalink: /blog/
 title: Blog
 nav: true
