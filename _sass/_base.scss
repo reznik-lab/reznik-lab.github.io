@@ -227,6 +227,10 @@ ul.task-list input[type="checkbox"] {
     text-transform: uppercase;
   }
 
+  thead th:first-child {
+    width: 35%;
+  }
+
   tbody th {
     font-family: monospace;
     font-weight: 600;
