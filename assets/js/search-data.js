@@ -23,20 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Current projects in the lab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -79,7 +65,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-our-study-led-by-sonia-and-minsoo-titled-functionally-dominant-hotspot-mutations-of-mitochondrial-ribosomal-rna-genes-in-cancer-is-now-available-on-nature-genetics-don-t-forget-to-start-with-the-research-briefing-and-ed-s-tweetorial",
           title: 'New Paper! Our study led by Sonia and Minsoo titled “Functionally dominant hotspot...',
           description: "",
-          section: "News",},{id: "news-new-preprints-our-study-led-by-sonia-anatomical-dynamics-define-cancer-cachexia-subtypes-and-identify-systemic-inflammation-as-a-marker-of-lethal-wasting-and-our-study-led-by-ziad-population-scale-precision-safety-in-oncology-reveals-clinical-and-genetic-determinants-of-systemic-therapy-toxicity-are-now-available-on-medrxiv",
+          section: "News",},{id: "news-new-preprints-our-study-led-by-sonia-anatomical-dynamics-define-cancer-cachexia-subtypes-and-identify-systemic-inflammation-as-a-marker-of-lethal-wasting-and-our-study-led-by-alex-feiyang-river-and-saksham-population-scale-precision-safety-in-oncology-reveals-clinical-and-genetic-determinants-of-systemic-therapy-toxicity-are-now-available-on-medrxiv",
           title: 'New preprints! Our study led by Sonia, “Anatomical dynamics define cancer cachexia subtypes...',
           description: "",
           section: "News",},{id: "news-new-paper-our-study-led-by-venise-and-amy-titled-a-health-system-scale-episode-resolved-multimodal-atlas-of-cancer-cachexia-is-now-published-in-nature-medicine-read-the-coverage-from-msk-and-cancer-grand-challenges",
