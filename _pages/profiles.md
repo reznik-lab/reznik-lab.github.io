@@ -114,7 +114,7 @@ former_members:
   - name: "Sari Khaleel"
     role: "Clinical Fellow"
   - name: "Yash Khandwala"
-    role: "Research Fellow"
+    role: "Surgical Oncology Fellow"
   - name: "Junbum Kim"
     role: "MSc Student (Cooper Union)"
   - name: "Minsoo Kim"
