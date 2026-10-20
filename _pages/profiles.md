@@ -25,6 +25,13 @@ profiles:
       <p>Ziad Bakouny, MD</p><br>
       <p>Medical Oncology Fellow</p>
   - align: right
+    image: science_images/etc-removebg-preview.png
+    content: lab_member_blurbs/about_rachel_saxe.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Rachel Saxe, PhD</p><br>
+      <p>Postdoctoral Research Scholar</p>
+  - align: right
     image: lab_member_photos/sonia.png
     content: lab_member_blurbs/about_sonia_boscenco.md
     image_circular: false # crops the image to make it circular
