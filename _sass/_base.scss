@@ -748,12 +748,9 @@ footer.sticky-bottom {
     }
   }
 
+  // year headings are still generated (group_by: year keeps papers in date order) but hidden
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    text-align: right;
+    display: none;
   }
 
   h3.pub-section {
@@ -761,11 +758,7 @@ footer.sticky-bottom {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 4rem;
-    margin-bottom: 0;
-
-    + h2.bibliography {
-      margin-top: 0.75rem;
-    }
+    margin-bottom: 1.5rem;
   }
 
   ol.bibliography {
