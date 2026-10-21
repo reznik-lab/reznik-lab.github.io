@@ -54,11 +54,11 @@ profiles:
       <p>Machine Learning Intern (Engage Scholar)</p>
   - align: right
     image: lab_member_photos/saksham.jpg
-    content: lab_member_blurbs/about_blank.md
+    content: lab_member_blurbs/about_saksham_mohan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Saksham Mohan</p><br>
-      <p>Machine Learning Intern</p>
+      <p>Computational Biologist</p>
   - align: right
     image: lab_member_photos/neil.png
     content: lab_member_blurbs/about_neil_ruthen.md
