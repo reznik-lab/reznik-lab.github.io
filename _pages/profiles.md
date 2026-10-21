@@ -2,6 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Team
+meta_description: Meet the Reznik Lab at Memorial Sloan Kettering, a team of computational biologists, postdocs, and students studying cancer metabolism.
 # description: members of the lab or group
 nav: true
 nav_order: 1

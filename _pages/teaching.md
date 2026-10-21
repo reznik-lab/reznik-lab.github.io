@@ -2,6 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
+published: false # hidden for now; remove this line to bring the page back
 description: Materials for courses you taught. Replace this text with your description.
 nav: false
 nav_order: 6

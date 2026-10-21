@@ -2,6 +2,7 @@
 layout: cv
 permalink: /cv/
 title: cv
+published: false # hidden for now; remove this line to bring the page back
 nav: false
 nav_order: 5
 cv_pdf: example_pdf.pdf # you can also use external links here

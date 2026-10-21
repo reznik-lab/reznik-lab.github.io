@@ -1,6 +1,7 @@
 ---
 layout: book-shelf
 title: bookshelf
+published: false # hidden for now; remove this line to bring the page back
 permalink: /books/
 nav: false
 collection: books

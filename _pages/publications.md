@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: Selected Publications
+meta_description: Selected publications from Ed Reznik's lab at Memorial Sloan Kettering on cancer metabolism, mitochondrial DNA, cachexia, and computational oncology.
 # description: For a complete list of publications, please visit the lab's [google scholar](https://scholar.google.com/citations?hl=en&user=eT_wqM0AAAAJ&view_op=list_works) page.
 nav: true
 nav_order: 2

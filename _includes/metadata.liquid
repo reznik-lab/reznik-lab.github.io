@@ -39,7 +39,12 @@
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% comment %} meta_description sets the search/preview text without showing it on the page (page.description is displayed as a subtitle) {% endcomment %}
+{% assign meta_description = page.meta_description | default: page.description | default: site.description | strip_newlines | strip %}
+<meta name="description" content="{{ meta_description }}">
+{% if page.collection == 'news' and page.inline %}
+  <meta name="robots" content="noindex">
+{% endif %}
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -57,16 +62,16 @@
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{{ meta_description }}">
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
   <!-- Twitter card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="{% if page.og_image or site.og_image %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{{ meta_description }}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
@@ -216,26 +221,48 @@
     {% capture link %}https://www.zotero.org/{{ site.zotero_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if sameaslinks != blank %}
-    {% assign sameaslinks = sameaslinks | split: '' %}
+  {% if site.data.socials.github_username %}
+    {% capture link %}https://github.com/{{ site.data.socials.github_username }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
+
+  {% comment %} PI's own profiles, from _data/socials.yml {% endcomment %}
+  {% assign pi_links = '' | split: ',' %}
+  {% if site.data.socials.scholar_userid %}
+    {% capture link %}https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}{% endcapture %}
+    {% assign pi_links = pi_links | push: link %}
+  {% endif %}
+  {% if site.data.socials.x_username %}
+    {% capture link %}https://x.com/{{ site.data.socials.x_username }}{% endcapture %}
+    {% assign pi_links = pi_links | push: link %}
   {% endif %}
 
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+        "@context": "https://schema.org",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        "name": {{ title | strip | jsonify }},
+        "headline": {% if page.title %}{{ page.title | jsonify }}{% else %}{{ title | strip | jsonify }}{% endif %},
+        "description": {{ meta_description | jsonify }},
+        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}",
+        "author": {
+            "@type": "ResearchOrganization",
+            "name": {{ author_name | strip | jsonify }},
+            "url": "{{ site.baseurl | prepend: site.url }}/",
+            {% if sameaslinks != blank %}
+            "sameAs": {{ sameaslinks | jsonify }},
+            {% endif %}
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "Memorial Sloan Kettering Cancer Center",
+                "url": "https://www.mskcc.org/"
+            },
+            "founder": {
+                "@type": "Person",
+                "name": "Ed Reznik",
+                "sameAs": {{ pi_links | jsonify }}
+            }
+        }
     }
   </script>
 {% endif %}
